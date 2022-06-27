@@ -684,6 +684,10 @@ video {
   height: 2rem;
 }
 
+.h-\[87px\]{
+  height: 87px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -702,6 +706,10 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-\[87px\]{
+  width: 87px;
 }
 
 .flex-col{
