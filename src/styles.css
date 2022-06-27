@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-title {
+    @apply transform rounded-md bg-cyan-500 px-2 py-4 text-center text-white transition duration-150 hover:scale-105 hover:shadow-lg hover:shadow-sky-200 md:text-lg;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
