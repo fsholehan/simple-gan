@@ -6,9 +6,12 @@
 
 @layer components {
   .link-title {
-    @apply transform rounded-md bg-cyan-500 px-2 py-4 text-center text-white transition duration-150 hover:scale-105 hover:shadow-lg hover:shadow-sky-200 md:text-lg;
+    @apply transform rounded-md bg-cyan-500 px-2 py-4 text-center text-white transition duration-150 ease-in-out hover:scale-105 md:text-lg;
   }
   .flex-between {
     @apply flex items-center justify-between;
+  }
+  #dark-toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-5;
   }
 }
