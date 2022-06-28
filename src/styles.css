@@ -6,7 +6,7 @@
 
 @layer components {
   .link-title {
-    @apply transform rounded-md bg-cyan-500 px-2 py-4 text-center text-white transition duration-150 ease-in-out hover:scale-105 md:text-lg;
+    @apply transform rounded-full bg-cyan-500 px-2 py-4 text-center text-white transition duration-150 ease-in-out hover:scale-105 md:text-lg;
   }
   .flex-between {
     @apply flex items-center justify-between;
